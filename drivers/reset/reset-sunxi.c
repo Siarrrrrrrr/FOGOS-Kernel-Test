@@ -70,7 +70,7 @@ err_alloc:
  * The controllers that we can register through the regular device
  * model are handled by the simple reset driver directly.
  */
-static const struct of_device_id sunxi_early_reset_dt_ids[] __initconst = {
+static const struct of_device_id sunxi_early_reset_dt_ids[] = {
 	{ .compatible = "allwinner,sun6i-a31-ahb1-reset", },
 	{ /* sentinel */ },
 };
